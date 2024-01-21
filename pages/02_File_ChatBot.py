@@ -10,7 +10,7 @@ from langchain.callbacks.base import BaseCallbackHandler
 import streamlit as st
 
 st.set_page_config(
-    page_title="DocumentGPT",
+    page_title="File_ChatBot",
     page_icon="📁",
 )
 
@@ -98,7 +98,7 @@ prompt = ChatPromptTemplate.from_messages(
 )
 
 
-st.title("DocumentGPT")
+st.title("File ChatBot")
 
 st.markdown(
 """           
