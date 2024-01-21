@@ -301,7 +301,7 @@ st.title("Website ChatBot")
 
 with st.sidebar:
     url = st.text_input("Write down a URL", placeholder="https://example.com")
-    keyword = st.text_input("Filter Word", placeholder="Enter the word to filter pages")
+    keyword = st.text_input("Filter Keyword", placeholder="Enter the keyword to filter pages")
 
 
 if url:
